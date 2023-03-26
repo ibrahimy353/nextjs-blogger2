@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'Building Stuff For the Net.';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'All rights reserved by Ibrahim.';
+    : 'All rights reserved by Him Ibra.';
 
   return {
     name,

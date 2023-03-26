@@ -13,7 +13,7 @@ export const postFilePaths = fs
   .readdirSync(POSTS_PATH)
   // Only include md(x) files
   .filter((path) => /\.mdx?$/.test(path));
-
+//setting the articles on the blog site in current to past format date.
 export const sortPostsByDate = (posts) => {
   return posts.sort((a, b) => {
     const aDate = new Date(a.data.date);

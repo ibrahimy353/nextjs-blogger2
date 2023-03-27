@@ -1,7 +1,8 @@
 ---
 title: 'Creating a Blog using Next JS 13, Typescript and Markdown'
+description: 'Creating a Static Site Generator using Next JS 13'
 date: 'March 23, 2023'
-subtitle: 'Creating a Static Site Generator using Next JS 13'
+
 ---
 # Ready to Blog? Here's How to Get Started Creating Your blog.
 

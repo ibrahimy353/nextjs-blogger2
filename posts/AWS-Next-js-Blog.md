@@ -6,4 +6,5 @@ date: 'March 28, 2023'
 ## COMING SOON
 
 ![aws pik](https://user-images.githubusercontent.com/85551204/226673916-0fe55dee-2a82-4653-88c3-01dd8e335f62.jpg)
-
+So now you are done creatinng the next js blog and you probable are thinking of maybe not using vercel and you decide on using
+Amazon Web Services (AWS). 

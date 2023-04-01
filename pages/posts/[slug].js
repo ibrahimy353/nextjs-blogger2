@@ -85,6 +85,7 @@ export default function PostPage({
             </Link>
           )}
         </div>
+        
       </article>
       <Footer copyrightText={globalData.footerText} />
       <GradientBackground

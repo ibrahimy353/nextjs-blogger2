@@ -6,5 +6,5 @@ date: 'April, 2023'
 ## COMING SOON
 
 ![aws pik](https://user-images.githubusercontent.com/85551204/226673916-0fe55dee-2a82-4653-88c3-01dd8e335f62.jpg)
-So now you are done creatinng the next js blog and you probably are thinking of maybe choosing one of the best hosting platforms
+So now you are done creatinng the next js blog and you probably are thinking of maybe chosing one of the best hosting platforms
 Amazon Web Services (AWS). 

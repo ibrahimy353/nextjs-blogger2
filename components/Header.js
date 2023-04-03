@@ -13,7 +13,7 @@ export default function Header({ name }) {
     marginRight: 'auto',
 }}/>
 
-      <p className="text-xl dark:text-white  text-center mx-auto">
+      <p className="text-xl dark:text-white text-center mx-auto">
         <Link href="/">
           <a>{name}</a>
         </Link>

@@ -9,10 +9,11 @@ export default function Header({ name }) {
     background: "url('https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')",
     height: '16vh',
     width: '16vh',
-    
+    marginLeft: 'auto',
+    marginRight: 'auto',
 }}/>
 
-      <p className="text-xl dark:text-white  text-center ">
+      <p className="text-xl dark:text-white  text-center mx-auto">
         <Link href="/">
           <a>{name}</a>
         </Link>

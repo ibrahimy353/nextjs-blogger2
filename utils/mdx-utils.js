@@ -40,7 +40,7 @@ export const getPosts = () => {
 };
 
 export const getPostBySlug = async (slug) => {
-  const postFilePath = path.join(POSTS_PATH, `${slug}.md`);
+  const postFilePath = path.join(POSTS_PATH, `${slug}.mdx`);
   const source = fs.readFileSync(postFilePath);
 
   const { content, data } = matter(source);

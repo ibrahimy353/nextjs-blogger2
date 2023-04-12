@@ -3,16 +3,10 @@ export default function Header({ name }) {
   return (
     <header className="pt-20 pb-12">
  
-         {/* <div className="w-16 h-16 rounded-full block mx-auto mb-4 bg-gradient-conic from-gradient-3 to-gradient-4" /> */}
-
-         <div style={{
-    background: "url('https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')",
-    height: '16vh',
-    width: '16vh',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-}}/>
-
+        
+      <div class="relative w-16 h-16 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600">
+          <svg class="absolute w-17 h-17 text-gray-400 -left-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path></svg>
+      </div>
       <p className="text-xl dark:text-white text-center mx-auto">
         <Link href="/">
           <a>{name}</a>
